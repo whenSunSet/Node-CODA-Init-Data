@@ -1,0 +1,13 @@
+vscode:
+    image: 1018998632/node-dev-env:v1
+    container_name: node-vscode 
+    restart: always
+    ports:
+        - "8080:8080"
+        - "8081:8081"
+        - "8082:8082"
+        - "8083:8083"
+        - "8084:8084"
+    volumes:
+        ## ~/node-vscode-dev-env 换成你自己的路径
+        - ~/node-vscode-dev-env:/root/data

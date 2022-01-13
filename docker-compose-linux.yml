@@ -1,0 +1,11 @@
+version: '2'
+services:
+    vscode:
+        image: 1018998632/node-vscode-dev-env:v1
+        container_name: node-vscode 
+        restart: always
+        network_mode: "host"
+        volumes:
+            ## ~/node-vscode-dev-env 换成你自己的路径
+            - ~/node-vscode-dev-env:/root/data
+
