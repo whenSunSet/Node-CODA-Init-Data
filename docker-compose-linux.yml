@@ -14,5 +14,5 @@ node-vscode:
         - "6638:6638"
         - "6639:6639"
     volumes:
-        ## ~/node-vscode-dev-env 换成你自己的路径
-        - ~/node-vscode-dev-env:/root/data
+        ## /root/node-vscode-dev-env 换成你自己的路径
+        - /root/node-vscode-dev-env:/root/data
